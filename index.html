@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google by Alex</title>
+    </head>
+    <style>
+       nav{
+  float: right;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+section{
+  position: relative;
+  top: 100px;
+}
+#google{
+  text-align: center;
+}
+#googlepic{
+  position: relative;
+  left: 100px;
+}
+#sentence{
+  text-align: center;
+}
+footer{
+  position: relative;
+  top: 200px;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+  padding: 0px 10px 0px 10px;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+    </style>
+
+<nav id="navbar">
+    <a href="#">Gmail</a>
+    <a href="#">Bilder</a>
+    <a href="#"><img style="width: 40px;" src="https://www.solarwinds.com/-/media/solarwinds/swdcv2/licensed-products/service-desk/integrations/sd-integrations-logo-google-single-sign-on.ashx?rev=e5d31b9fa12848d3bd44c8c960d0dd3b&hash=7BD65F7FD1EF91A9248E1C4167CB01E4"></a>
+    <a href="#"><img style="width: 40px;" src="data:image/jpeg;base64,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"></a></nav>
+  
+  <section>
+  <div id="google">
+  <img id="googlepic" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" style="width: 270px;">
+  <form><input type="text"><br></br>
+  <button type="button">Google Suche</button>
+  <button type="button">Auf gut Glueck</button>
+    </form></div>
+  
+  <div id="sentence"><p>Google angeboten auf: <a href="#" style="padding-right: 8px;">English</a><a href="#">Espanol</a></div></section>
+    
+  <footer>
+    <p>Kolumbien</p>
+    <hr>
+    <a href="#">Ueber Google</a>
+    <a href="#">Werbeprogramme</a>
+    <a href="#">Unternehmen</a>
+    <a id="1" href="#">Wie funktioniert die Google Suche?</a>
+  <a href="#">Datenschutzerklaerung</a>
+  <a href="#">Nutzungsbedingungen</a>
+  <a href="#">Einstellungen</a>
+  </footer>
+  </html>
+  
